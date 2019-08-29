@@ -1,0 +1,1 @@
+var url = "https://www.easy-mock.com/mock/5d64a83cf05b0c0a976ef2b1/document/"

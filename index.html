@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>蓝蜂巢帮助文档</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script src="js/url.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+		<div class="">
+			<div class="navbar-header">
+				<a href="new.html"> <img class="header_left" src="img/logo.png" alt="" /></a>
+				<button onclick="headermenu()" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="hedaer_right input visible-xs" id="input_search">
+					<input class="search_input" style="display: none;" type="text" placeholder="请输入序号,标题">
+					<button class="button_search"><img src="img/search.png" alt=""></button>
+				</div>
+			</div>
+			<!-- visible-lg -->
+			<div class="collapse navbar-collapse navbar-right" id="top_list">
+				<ul id="ul_list" class="nav navbar-nav header_ul " onclick="chose()">
+					<li>
+						<a id="business" style="color: #ff6900;border-bottom: 2px solid #ff6900;"
+							href="#business">商户管理系统</a>
+					</li>
+					<li>
+						<a id="agent" href="#agent">代理商管理系统</a>
+					</li>
+					<li>
+						<a id="admin" href="#admin">总后台管理系统</a>
+					</li>
+					<li>
+						<a id="h5" href="#h5">H5商城管理系统</a>
+					</li>
+					<li>
+						<a id="procedures" href="#procedures">小程序商城</a>
+					</li>
+					<li class="hidden-xs hidden-sm">
+						<div class="input">
+							<input class="search_inputs" type="text" placeholder="请输入序号,标题">
+							<button onclick="search_doc()"><img src="img/search.png" alt=""></button>
+						</div>
+					</li>
+				</ul>
+				<hr>
+				<div class="visible-xs top_header" id="fa_titles">
+					<div id='deletes'></div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="main_box">
+		<div class="main_title hidden-xs">
+			<div id="nav_left">
+				<div class="father_title">
+					<p id="totaltitle">商户管理系统</p>
+				</div>
+				<div class="title">
+					<ul>
+						<li id="fa_title">
+							<div id='delete'>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="main_content">
+			<div id="conten_total">
+				<div id='de_content'>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>

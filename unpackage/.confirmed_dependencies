@@ -1,0 +1,8 @@
+{
+	"index.html": {
+		"resources": [
+			"img/select.png",
+			"js/index.js"
+		]
+	}
+}
